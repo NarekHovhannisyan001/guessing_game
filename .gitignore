@@ -1,3 +1,25 @@
-/target
-Cargo.lock
-./idea
+# Rust build folder
+/target/
+
+# Cargo lock file (optional to ignore, usually keep it for reproducible builds)
+# Cargo.lock
+
+# IntelliJ/CLion project files
+/.idea/
+
+# Rust Analyzer folder
+/rust-analyzer/
+
+# VS Code settings (if you use VS Code)
+/.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Backup files
+*.bak
+*~
